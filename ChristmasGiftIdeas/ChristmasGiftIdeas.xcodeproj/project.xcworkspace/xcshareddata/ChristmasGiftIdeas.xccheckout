@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8D3B5410-7068-4037-9AC3-7B7D201FA1AE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ChristmasGiftIdeas</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>375A8737F170B9640D790659BF0456CBCEC8B914</key>
+		<string>https://github.com/JoeyTawadrous/Apple-Watch-Tutorials.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ChristmasGiftIdeas/ChristmasGiftIdeas.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>375A8737F170B9640D790659BF0456CBCEC8B914</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/JoeyTawadrous/Apple-Watch-Tutorials.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>375A8737F170B9640D790659BF0456CBCEC8B914</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>375A8737F170B9640D790659BF0456CBCEC8B914</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Apple-Watch-Tutorials</string>
+		</dict>
+	</array>
+</dict>
+</plist>

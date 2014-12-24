@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="13E28" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3734"/>
+    </dependencies>
+    <scenes>
+        <!--InterfaceController-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="InterfaceController" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="InspireMe_Watch_App" customModuleProvider="target">
+                    <items>
+                        <button width="30" height="30" alignment="right" backgroundImage="Star_icon" id="CEp-OJ-pjm">
+                            <connections>
+                                <segue destination="hfs-dA-W4J" kind="push" id="wMc-k6-WZh"/>
+                            </connections>
+                        </button>
+                        <label width="1" height="69" alignment="center" text="Inspire Me!" textAlignment="center" numberOfLines="3" id="PuJ-v6-yPr"/>
+                        <label alignment="center" text="Rating" id="5P4-IC-p7U"/>
+                        <slider width="1" alignment="left" verticalAlignment="center" continuous="YES" value="0.99999999999999989" maximum="3" steps="3" id="3Hv-e5-LHE"/>
+                        <button width="1" height="35" alignment="center" verticalAlignment="bottom" title="Show Me More" id="V4P-3i-hWi">
+                            <color key="backgroundColor" red="0.18039215689999999" green="0.80000000000000004" blue="0.4431372549" alpha="1" colorSpace="deviceRGB"/>
+                            <connections>
+                                <action selector="showMore" destination="AgC-eL-Hgc" id="4dH-oO-cbP"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <color key="backgroundColor" red="0.13333334029999999" green="0.6549019814" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="quoteLabel" destination="PuJ-v6-yPr" id="Tle-Gx-q0g"/>
+                        <outlet property="showMoreButton" destination="V4P-3i-hWi" id="ZIT-4g-zY5"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="177" y="327"/>
+        </scene>
+        <!--Favourites-->
+        <scene sceneID="ef5-JF-xqM">
+            <objects>
+                <controller identifier="Favourites" id="hfs-dA-W4J" customClass="FavouriteQuotes" customModule="InspireMe_WatchKit_Extension">
+                    <items>
+                        <label width="1" height="69" alignment="center" text="Favourites!" textAlignment="center" numberOfLines="3" id="ko0-78-dvB"/>
+                        <button width="1" height="35" alignment="center" verticalAlignment="bottom" title="Show Me my Favs" id="5p8-B1-Gk6">
+                            <color key="backgroundColor" red="0.94509804249999996" green="0.76862746479999999" blue="0.058823529630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="showMore" destination="AgC-eL-Hgc" id="2wf-Hg-0Hc"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <color key="backgroundColor" red="0.60784316059999999" green="0.34901961679999999" blue="0.71372550729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="397" y="198"/>
+        </scene>
+    </scenes>
+</document>
