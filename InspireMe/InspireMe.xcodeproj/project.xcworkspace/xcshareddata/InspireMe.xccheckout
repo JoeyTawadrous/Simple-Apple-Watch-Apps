@@ -12,12 +12,16 @@
 	<dict>
 		<key>375A8737F170B9640D790659BF0456CBCEC8B914</key>
 		<string>https://github.com/JoeyTawadrous/Apple-Watch-Tutorials.git</string>
+		<key>E34704C5ECB54509287B1C8B8DAC289F3926B8DB</key>
+		<string>https://github.com/JoeyTawadrous/Apple-Watch-Tutorials.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>InspireMe/InspireMe.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>375A8737F170B9640D790659BF0456CBCEC8B914</key>
+		<string>../../../../Apple-Watch-Tutorials</string>
+		<key>E34704C5ECB54509287B1C8B8DAC289F3926B8DB</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,7 +29,7 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>375A8737F170B9640D790659BF0456CBCEC8B914</string>
+	<string>E34704C5ECB54509287B1C8B8DAC289F3926B8DB</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>375A8737F170B9640D790659BF0456CBCEC8B914</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Apple-Watch-Tutorials</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E34704C5ECB54509287B1C8B8DAC289F3926B8DB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Apple%20Watch%20Tutorials</string>
 		</dict>
 	</array>
 </dict>
