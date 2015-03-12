@@ -6,10 +6,9 @@ This is a repo in which I will place multiple apple watch app projects. They wil
 
 ChristmasGiftIdeas - Helping you decide what to buy your family for Xmas.
 
-![Christmas Gift Ideas Screenshot](AppImages/ChristmasGiftIdeasScreenshot.png)
-
-![Christmas Gift Ideas Screenshot 2](AppImages/ChristmasGiftIdeasScreenshot2.png)
+<img alt="Christmas Gift Ideas Screenshot" width="205px" src="AppImages/ChristmasGiftIdeasScreenshot.png">
+<img alt="Christmas Gift Ideas Screenshot 2" width="205px" src="AppImages/ChristmasGiftIdeasScreenshot2.png">
 
 InspireMe - An app that motivates you through multiple inspirational quotes.
 
-![Inspure Me Screenshot](AppImages/InspireMeScreenshot.png)
+<img alt="Inspure Me Screenshot" width="205px" src="AppImages/InspireMeScreenshot.png">
